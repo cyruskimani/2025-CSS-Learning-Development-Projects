@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Styled To-Do List</title>
+    <style>
+        a{
+        text-decoration: none;
+        }
+        a:link{
+        color: blue;
+        }
+        a:hover{
+        color: orange;
+        }
+        a:focus{
+        outline: 1px green;
+        outline-offset: 2px;
+        }
+        a:active{
+        color: yellow;
+        }
+        a:visited{
+        color: purple;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="todo-list">
+        <li>
+            <input type="checkbox" id="value-1">
+            <label for="value-1">For New Brunswik AIP</label>
+            <ul class="sub-item">
+                <li>
+                    <a href="https://www2.gnb.ca/content/gnb/en/corporate/promo/immigration/notice.html" class="sub-item-link" target="_blank">New Brunswik</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <input type="checkbox" id="value-2">
+            <label for="value-2">For New Foundland AIP</label>
+            <ul class="sub-item">
+                <li>
+                    <a href="https://www.gov.nl.ca/immigration/immigrating-to-newfoundland-and-labrador/atlantic-immigration-program/workers/" class="sub-item-link" target="_blank">New Foundland</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <input type="checkbox" id="value-3">
+            <label for="value-3">For Nova Scotia AIP</label>
+            <ul class="sub-item">
+                <li>
+                    <a href="https://novascotiaimmigration.com/" class="sub-item-link" target="_blank">Nova Scotia</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <input type="checkbox" id="value-4">
+            <label for="value-4">For Prince Edward Island AIP</label>
+            <ul class="sub-item">
+                <li>
+                    <a href="https://www.princeedwardisland.ca/en" class="sub-item-link" target="_blank">Prince Edward Island</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+</body>
+
+</html>
